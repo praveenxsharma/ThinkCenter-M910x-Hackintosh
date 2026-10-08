@@ -71,4 +71,20 @@ boot_args = config.get("NVRAM", {}).get("Add", {}).get("7C436110-AB2A-4BBB-A880-
 assert "-v" in boot_args, "Verbose mode should be in boot-args"
 assert "alcid=11" in boot_args, "ALC294 layout ID 11 should be in boot-args"
 
+# 6. Verify Drivers
+uefi_drivers = config.get("UEFI", {}).get("Drivers", [])
+driver_paths = [d["Path"] for d in uefi_drivers if d.get("Enabled")]
+assert "HfsPlus.efi" in driver_paths, "HfsPlus.efi must be present in Drivers"
+for d in driver_paths:
+    full_path = os.path.join(EFI_ROOT, "Drivers", d)
+    if not os.path.exists(full_path):
+        print(f"FAIL: Driver {d} not found at {full_path}")
+        sys.exit(1)
+    # verify driver is PE32+
+    with open(full_path, "rb") as df:
+        hdr = df.read(2)
+        if hdr != b"MZ":
+            print(f"FAIL: Driver {d} is not a valid EFI binary (missing MZ header)")
+            sys.exit(1)
+
 print("PASS: config.plist is completely valid and verified for M910x hardware.")

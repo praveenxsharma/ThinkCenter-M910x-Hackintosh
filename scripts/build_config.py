@@ -29,11 +29,14 @@ for k in config["ACPI"]["Quirks"]:
 # === 2. Booter Quirks (Skylake Desktop) ===
 bq = config["Booter"]["Quirks"]
 for k in bq:
-    bq[k] = False
+    if isinstance(bq[k], bool):
+        bq[k] = False
 bq["AvoidRuntimeDefrag"] = True
 bq["EnableSafeModeSlide"] = True
 bq["EnableWriteUnprotector"] = True
 bq["ProvideCustomSlide"] = True
+bq["ProvideMaxSlide"] = 0
+bq["ResizeAppleGpuBars"] = -1
 bq["SetupVirtualMap"] = True
 
 # === 3. DeviceProperties ===
@@ -86,11 +89,13 @@ for bundle, exec_path, plist_path in kext_order:
 # Kernel Quirks
 kq = config["Kernel"]["Quirks"]
 for k in kq:
-    kq[k] = False
+    if isinstance(kq[k], bool):
+        kq[k] = False
 kq["AppleXcpmCfgLock"] = True
 kq["PanicNoKextDump"] = True
 kq["PowerTimeoutKernelPanic"] = True
 kq["ProvideCurrentCpuInfo"] = False
+kq["SetApfsTrimTimeout"] = -1
 
 # === 5. Misc ===
 config["Misc"]["Boot"]["ShowPicker"] = True
@@ -126,7 +131,7 @@ config["UEFI"]["Drivers"] = [
         "Comment": "HFS+ Filesystem Driver",
         "Enabled": True,
         "LoadEarly": False,
-        "Path": "OpenHfsPlus.efi"
+        "Path": "HfsPlus.efi"
     },
     {
         "Arguments": "",
