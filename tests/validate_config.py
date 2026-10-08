@@ -52,8 +52,8 @@ if not igpu_prop:
     sys.exit(1)
 
 ig_platform_id = igpu_prop.get("AAPL,ig-platform-id")
-if ig_platform_id != b"\x00\x00\x12\x19":
-    print(f"FAIL: Invalid AAPL,ig-platform-id: {ig_platform_id} (expected 00001219)")
+if ig_platform_id not in (b"\x00\x00\x12\x19", b"\x00\x00\x16\x19"):
+    print(f"FAIL: Invalid AAPL,ig-platform-id: {ig_platform_id}")
     sys.exit(1)
 
 # 4. Verify Quirks

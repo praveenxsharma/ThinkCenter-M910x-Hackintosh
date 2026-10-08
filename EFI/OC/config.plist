@@ -181,35 +181,11 @@
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>
-				AAASGQ==
+				AAAWGQ==
 				</data>
 				<key>device-id</key>
 				<data>
-				EhkAAA==
-				</data>
-				<key>framebuffer-con0-enable</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con0-type</key>
-				<data>
-				AAQAAA==
-				</data>
-				<key>framebuffer-con1-enable</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con1-type</key>
-				<data>
-				AAQAAA==
-				</data>
-				<key>framebuffer-con2-enable</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con2-type</key>
-				<data>
-				AAQAAA==
+				FhkAAA==
 				</data>
 				<key>framebuffer-fbmem</key>
 				<data>
@@ -1321,7 +1297,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 alcid=11 -igfxnohdmi igfxonln=1</string>
+				<string>-v keepsyms=1 debug=0x100 alcid=11 igfxonln=1</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==
