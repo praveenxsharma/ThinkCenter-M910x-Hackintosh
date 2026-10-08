@@ -1321,7 +1321,7 @@
 				Rg==
 				</data>
 				<key>boot-args</key>
-				<string>-v keepsyms=1 debug=0x100 alcid=11 -igfxnohdmi</string>
+				<string>-v keepsyms=1 debug=0x100 alcid=11 -igfxnohdmi igfxonln=1</string>
 				<key>csr-active-config</key>
 				<data>
 				AAAAAA==
