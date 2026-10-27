@@ -1,3 +1,19 @@
 # opencode session transcripts
 .opencode/session-*.md
 
+# macOS metadata & temporary files
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+.TemporaryItems
+
+# Apple Recovery Images (download via tools/macrecovery.py)
+com.apple.recovery.boot/
+*.dmg
+*.chunklist
+
+# Temporary files & logs
+*.log
+*.zip
+*.tmp
