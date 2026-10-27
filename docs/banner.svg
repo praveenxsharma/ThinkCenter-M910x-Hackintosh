@@ -1,159 +1,186 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="100%" height="100%" xmlns:c2pa="http://c2pa.org/manifest"><metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo3NjE3NmVkZi05ZTQ0LTQyNzItYTYwNC02ZWJlZWFlZmYzZWUAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaMFvcaNp4H34FdDbkK6we64AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDpiZDEzZjA1NC0zOTI5LTQ1YzgtYTVlNS05MTgzNmQ2NGI4NjFscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoujhAbBIlB1I+5SwfVcaA6wAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggYTFpsD2q5H6Bhjb4I4xshrI3hqgiSHdbPas/KLfdl0SkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaCKCbouM11gFA9r2ts89UL0AAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRNAAAAAAAAAAAAAAAAAGRoYXNoWCB1ZpdDE0TDd03XsK/2VrbBWrtsxYSjoSFjXCMFNQN+OWRuYW1lbmp1bWJmIG1hbmlmZXN0amV4Y2x1c2lvbnOBomVzdGFydBiZZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjc2MTc2ZWRmLTllNDQtNDI3Mi1hNjA0LTZlYmVlYWVmZjNlZS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjU2MmM4ODI1LWY3YTgtNDRjNy1iMmU3LThkNjI3MTUwZTAyYnJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCBhMWmwParkfoGGNvgjjGyGsjeGqCJId1s9qz8ot92XRKJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFgggZFrPUvRhZQF5HuSxQ6aBLTravJSEB0MkURY31luP9CiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgg7Hvv22uzeGot9wkQrbn6zFg5UmYPqDJaHABjs8ttxVt0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQPR995sO9V8XQ+u9AX+JNJRal/tl3aDcuZJdnaDnuwQLfM7n/iUTkkqNYobiE/rOTMrd7cPN6L50HpAz+AgXx3A=</c2pa:manifest></metadata>
   <defs>
-    <!-- Dark Matte Gradient Background -->
     <linearGradient id="canvas-bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#090A0D" />
-      <stop offset="60%" stop-color="#0C0D11" />
-      <stop offset="100%" stop-color="#070709" />
+      <stop offset="0%" stop-color="#0A0B0F" />
+      <stop offset="55%" stop-color="#0D0E13" />
+      <stop offset="100%" stop-color="#060608" />
     </linearGradient>
 
-    <!-- Refined Minimal Grid Pattern -->
     <pattern id="dot-matrix" width="28" height="28" patternUnits="userSpaceOnUse">
-      <circle cx="2" cy="2" r="0.75" fill="#FFFFFF" fill-opacity="0.05" />
+      <circle cx="2" cy="2" r="0.7" fill="#FFFFFF" fill-opacity="0.045" />
     </pattern>
 
-    <!-- Subtle Ambient Corner Glow -->
-    <radialGradient id="top-left-glow" cx="0%" cy="0%" r="50%">
-      <stop offset="0%" stop-color="#E2231A" stop-opacity="0.12" />
+    <radialGradient id="glow-red" cx="0%" cy="0%" r="55%">
+      <stop offset="0%" stop-color="#E2231A" stop-opacity="0.14" />
       <stop offset="100%" stop-color="#E2231A" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="top-right-glow" cx="100%" cy="0%" r="50%">
-      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.08" />
-      <stop offset="100%" stop-color="#0284C7" stop-opacity="0" />
+    <radialGradient id="glow-stage" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#2A2D3E" stop-opacity="0.55" />
+      <stop offset="60%" stop-color="#14151D" stop-opacity="0.25" />
+      <stop offset="100%" stop-color="#0A0B0F" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Border highlight -->
     <linearGradient id="frame-stroke" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.12" />
-      <stop offset="40%" stop-color="#FFFFFF" stop-opacity="0.03" />
-      <stop offset="100%" stop-color="#E2231A" stop-opacity="0.25" />
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.14" />
+      <stop offset="45%" stop-color="#FFFFFF" stop-opacity="0.03" />
+      <stop offset="100%" stop-color="#E2231A" stop-opacity="0.28" />
     </linearGradient>
 
-    <!-- Red Accent -->
-    <linearGradient id="red-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FF3B30" />
-      <stop offset="100%" stop-color="#E2231A" />
+    <linearGradient id="red-bar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF4A3F" />
+      <stop offset="100%" stop-color="#C81E16" />
     </linearGradient>
+
+    <linearGradient id="title-fill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#B4B8C4" />
+    </linearGradient>
+
+    <linearGradient id="chassis" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#23242D" />
+      <stop offset="45%" stop-color="#16171E" />
+      <stop offset="100%" stop-color="#0E0F14" />
+    </linearGradient>
+    <linearGradient id="chassis-edge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0" />
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="hairline" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2A2C37" stop-opacity="1" />
+      <stop offset="100%" stop-color="#2A2C37" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="reflection" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.07" />
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient id="led-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+    </radialGradient>
+
+    <filter id="shadow" x="-20%" y="-40%" width="140%" height="220%">
+      <feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#000000" flood-opacity="0.6" />
+    </filter>
+    <filter id="blur" x="-30%" y="-300%" width="160%" height="700%">
+      <feGaussianBlur stdDeviation="10" />
+    </filter>
   </defs>
 
-  <!-- Background Canvas -->
+  <!-- Canvas -->
   <rect width="1200" height="400" rx="16" fill="url(#canvas-bg)" />
   <rect width="1200" height="400" rx="16" fill="url(#dot-matrix)" />
-  <rect width="1200" height="400" rx="16" fill="url(#top-left-glow)" />
-  <rect width="1200" height="400" rx="16" fill="url(#top-right-glow)" />
+  <rect width="1200" height="400" rx="16" fill="url(#glow-red)" />
+  <ellipse cx="910" cy="205" rx="330" ry="170" fill="url(#glow-stage)" />
   <rect x="1" y="1" width="1198" height="398" rx="15" fill="none" stroke="url(#frame-stroke)" stroke-width="1.2" />
 
-  <!-- LEFT COLUMN: Typography & Specifications -->
+  <!-- LEFT COLUMN (content spans x 64 to ~500) -->
 
-  <!-- Model Tag -->
+  <!-- Model tag -->
   <g transform="translate(64, 56)">
-    <rect x="0" y="0" width="3" height="16" rx="1.5" fill="url(#red-gradient)" />
-    <text x="12" y="13" fill="#E2231A" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif" font-size="12" font-weight="700" letter-spacing="2.5">
-      THINKCENTRE M910X TINY
-    </text>
+    <rect x="0" y="0" width="3" height="16" rx="1.5" fill="url(#red-bar)" />
+    <text x="14" y="12.5" fill="#E2231A" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif" font-size="11.5" font-weight="700" letter-spacing="3">THINKCENTRE M910X TINY</text>
   </g>
 
-  <!-- Title using tspan for guaranteed collision-free flow -->
-  <text x="64" y="132" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif" font-size="44" font-weight="800" letter-spacing="-1">
-    macOS Monterey<tspan dx="14" fill="#71717A" font-size="28" font-weight="300" letter-spacing="0">12.7.6</tspan>
-  </text>
+  <!-- Title -->
+  <text x="64" y="124" fill="url(#title-fill)" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif" font-size="46" font-weight="700" letter-spacing="-1.2">macOS Monterey<tspan dx="16" fill="#6B7280" font-size="26" font-weight="300" letter-spacing="0">12.7.6</tspan></text>
 
   <!-- Subtitle -->
-  <text x="64" y="174" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', sans-serif" font-size="16" font-weight="400" letter-spacing="-0.2">
-    Production OpenCore 1.0.8 EFI · Intel Core i5-6500T · Full Metal Acceleration
-  </text>
+  <text x="64" y="158" fill="#9CA3AF" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', sans-serif" font-size="15" font-weight="400" letter-spacing="-0.1">Production OpenCore 1.0.8 EFI  ·  Intel Core i5-6500T</text>
 
-  <!-- Spec Chips Row (Comfortable spacing & no cramped boxes) -->
-  <g transform="translate(64, 216)">
-    <!-- Chip 1: Graphics -->
-    <g transform="translate(0, 0)">
-      <rect x="0" y="0" width="158" height="34" rx="7" fill="#13141B" stroke="#22232B" stroke-width="1" />
-      <circle cx="16" cy="17" r="3.5" fill="#10B981" />
-      <text x="28" y="22" fill="#E4E4E7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="12.5" font-weight="600">HD 530 1536 MB</text>
+  <!-- Spec chips: 2 x 2 grid -->
+  <g transform="translate(64, 192)" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', sans-serif">
+    <!-- Graphics -->
+    <g>
+      <rect x="0.5" y="0.5" width="214" height="46" rx="9" fill="#12131A" stroke="#242530" />
+      <circle cx="20" cy="23.5" r="3.5" fill="#10B981" />
+      <text x="36" y="19" fill="#6B7280" font-size="9" font-weight="600" letter-spacing="1.8">GRAPHICS</text>
+      <text x="36" y="36" fill="#F4F4F5" font-size="13.5" font-weight="600">HD 530 · 1536 MB</text>
     </g>
-
-    <!-- Chip 2: Audio -->
-    <g transform="translate(170, 0)">
-      <rect x="0" y="0" width="158" height="34" rx="7" fill="#13141B" stroke="#22232B" stroke-width="1" />
-      <circle cx="16" cy="17" r="3.5" fill="#38BDF8" />
-      <text x="28" y="22" fill="#E4E4E7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="12.5" font-weight="600">ALC294 (Layout 12)</text>
+    <!-- Audio -->
+    <g transform="translate(228, 0)">
+      <rect x="0.5" y="0.5" width="214" height="46" rx="9" fill="#12131A" stroke="#242530" />
+      <circle cx="20" cy="23.5" r="3.5" fill="#38BDF8" />
+      <text x="36" y="19" fill="#6B7280" font-size="9" font-weight="600" letter-spacing="1.8">AUDIO</text>
+      <text x="36" y="36" fill="#F4F4F5" font-size="13.5" font-weight="600">ALC294 · Layout 12</text>
     </g>
-
-    <!-- Chip 3: Ethernet -->
-    <g transform="translate(340, 0)">
-      <rect x="0" y="0" width="168" height="34" rx="7" fill="#13141B" stroke="#22232B" stroke-width="1" />
-      <circle cx="16" cy="17" r="3.5" fill="#60A5FA" />
-      <text x="28" y="22" fill="#E4E4E7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="12.5" font-weight="600">Intel I219-LM 1GbE</text>
+    <!-- Ethernet -->
+    <g transform="translate(0, 58)">
+      <rect x="0.5" y="0.5" width="214" height="46" rx="9" fill="#12131A" stroke="#242530" />
+      <circle cx="20" cy="23.5" r="3.5" fill="#60A5FA" />
+      <text x="36" y="19" fill="#6B7280" font-size="9" font-weight="600" letter-spacing="1.8">ETHERNET</text>
+      <text x="36" y="36" fill="#F4F4F5" font-size="13.5" font-weight="600">Intel I219-LM 1GbE</text>
     </g>
-
-    <!-- Chip 4: Wireless -->
-    <g transform="translate(520, 0)">
-      <rect x="0" y="0" width="152" height="34" rx="7" fill="#13141B" stroke="#22232B" stroke-width="1" />
-      <circle cx="16" cy="17" r="3.5" fill="#A78BFA" />
-      <text x="28" y="22" fill="#E4E4E7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="12.5" font-weight="600">Intel AC 8265 Wi-Fi</text>
+    <!-- Wireless -->
+    <g transform="translate(228, 58)">
+      <rect x="0.5" y="0.5" width="214" height="46" rx="9" fill="#12131A" stroke="#242530" />
+      <circle cx="20" cy="23.5" r="3.5" fill="#A78BFA" />
+      <text x="36" y="19" fill="#6B7280" font-size="9" font-weight="600" letter-spacing="1.8">WIRELESS</text>
+      <text x="36" y="36" fill="#F4F4F5" font-size="13.5" font-weight="600">Intel AC 8265 Wi-Fi</text>
     </g>
   </g>
 
-  <!-- Technical Footer Metadata - Single Line to Prevent Collisions -->
-  <g transform="translate(64, 320)">
-    <line x1="0" y1="0" x2="608" y2="0" stroke="#1F2028" stroke-width="1" />
-    <text x="0" y="24" fill="#64748B" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', monospace" font-size="11.5" font-weight="500" letter-spacing="0.5">
-      SKYLAKE DESKTOP 35W  <tspan fill="#334155">·</tspan>  OPENCORE 1.0.8  <tspan fill="#334155">·</tspan>  DP-TO-HDMI  <tspan fill="#334155">·</tspan>  APFS TRIM NATIVE
-    </text>
+  <!-- Footer metadata -->
+  <g transform="translate(64, 326)">
+    <line x1="0" y1="0" x2="442" y2="0" stroke="url(#hairline)" stroke-width="1" />
+    <text x="0" y="26" fill="#6B7280" font-family="'SF Mono', 'JetBrains Mono', Menlo, monospace" font-size="10.5" font-weight="500" letter-spacing="1.2">SKYLAKE 35W  ·  DP-TO-HDMI  ·  APFS TRIM</text>
   </g>
 
-  <!-- RIGHT COLUMN: Minimal Precision Hardware Schematic -->
-  <g transform="translate(760, 68)">
-    <!-- Subtle Chassis Base -->
-    <rect x="0" y="0" width="376" height="264" rx="12" fill="#0D0E13" stroke="#22232A" stroke-width="1.2" />
+  <!-- RIGHT COLUMN: device front view (x 690 to 1130) -->
 
-    <!-- ThinkCentre Logo Accent -->
-    <text x="32" y="44" fill="#F4F4F5" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14" font-weight="800" letter-spacing="1">
-      ThinkCentre
-    </text>
-    <!-- Glowing Red Dot on the 'i' of ThinkCentre -->
-    <circle cx="68" cy="33" r="2.5" fill="#E2231A" />
-    <circle cx="68" cy="33" r="5.5" fill="#E2231A" fill-opacity="0.3" />
+  <!-- Floor glow + reflection -->
+  <ellipse cx="910" cy="268" rx="190" ry="9" fill="#E2231A" fill-opacity="0.22" filter="url(#blur)" />
+  <rect x="700" y="254" width="420" height="30" rx="10" fill="url(#reflection)" />
 
-    <!-- Power Button Indicator -->
-    <rect x="306" y="28" width="38" height="22" rx="11" fill="#14151C" stroke="#2E303B" stroke-width="1" />
-    <circle cx="325" cy="39" r="3" fill="#38BDF8" />
+  <!-- Chassis -->
+  <g transform="translate(690, 150)">
+    <rect x="0" y="0" width="440" height="104" rx="14" fill="url(#chassis)" stroke="#2C2E39" stroke-width="1.2" filter="url(#shadow)" />
+    <rect x="24" y="0.8" width="392" height="1.2" fill="url(#chassis-edge)" />
+    <rect x="1" y="94" width="438" height="9" rx="8" fill="#000000" fill-opacity="0.25" />
 
-    <!-- Front I/O Ports Schematic -->
-    <g transform="translate(32, 78)">
-      <!-- USB Port 1 -->
-      <rect x="0" y="0" width="32" height="15" rx="3" fill="#181922" stroke="#2E303B" stroke-width="1" />
-      <rect x="7" y="5" width="18" height="5" rx="1" fill="#0284C7" fill-opacity="0.8" />
+    <!-- Wordmark -->
+    <rect x="32" y="26" width="3" height="14" rx="1.5" fill="url(#red-bar)" />
+    <text x="44" y="38" fill="#F4F4F5" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif" font-size="13" font-weight="700" letter-spacing="1.2">ThinkCentre</text>
 
-      <!-- USB Port 2 (Fast Charge) -->
-      <rect x="44" y="0" width="32" height="15" rx="3" fill="#181922" stroke="#2E303B" stroke-width="1" />
-      <rect x="51" y="5" width="18" height="5" rx="1" fill="#E2231A" fill-opacity="0.8" />
-
-      <!-- Headphone / Combo Audio Jack (ALC294) -->
-      <circle cx="100" cy="7.5" r="7.5" fill="#181922" stroke="#2E303B" stroke-width="1" />
-      <circle cx="100" cy="7.5" r="3.5" fill="#10B981" />
-
-      <!-- Mic Jack -->
-      <circle cx="126" cy="7.5" r="7.5" fill="#181922" stroke="#2E303B" stroke-width="1" />
-      <circle cx="126" cy="7.5" r="3.5" fill="#3F3F46" />
+    <!-- Ports -->
+    <g transform="translate(32, 62)">
+      <rect x="0" y="0" width="34" height="16" rx="3.5" fill="#0B0C10" stroke="#30323D" />
+      <rect x="6" y="5.5" width="22" height="5" rx="1" fill="#0284C7" fill-opacity="0.85" />
+      <rect x="46" y="0" width="34" height="16" rx="3.5" fill="#0B0C10" stroke="#30323D" />
+      <rect x="52" y="5.5" width="22" height="5" rx="1" fill="#E2231A" fill-opacity="0.85" />
+      <circle cx="104" cy="8" r="8" fill="#0B0C10" stroke="#30323D" />
+      <circle cx="104" cy="8" r="3.2" fill="#10B981" />
+      <circle cx="132" cy="8" r="8" fill="#0B0C10" stroke="#30323D" />
+      <circle cx="132" cy="8" r="3.2" fill="#3F3F46" />
     </g>
 
-    <!-- Geometric Intake Grille -->
-    <g fill="#191A23" transform="translate(32, 126)">
-      <rect x="0" y="0" width="312" height="3" rx="1.5" />
-      <rect x="0" y="12" width="312" height="3" rx="1.5" />
-      <rect x="0" y="24" width="312" height="3" rx="1.5" />
-      <rect x="0" y="36" width="312" height="3" rx="1.5" />
-      <rect x="0" y="48" width="312" height="3" rx="1.5" />
-      <rect x="0" y="60" width="312" height="3" rx="1.5" />
-      <rect x="0" y="72" width="312" height="3" rx="1.5" />
+    <!-- Intake vents -->
+    <g fill="#0B0C10" stroke="#23242D" stroke-width="0.8">
+      <rect x="216" y="26" width="4" height="52" rx="2" />
+      <rect x="228" y="26" width="4" height="52" rx="2" />
+      <rect x="240" y="26" width="4" height="52" rx="2" />
+      <rect x="252" y="26" width="4" height="52" rx="2" />
+      <rect x="264" y="26" width="4" height="52" rx="2" />
+      <rect x="276" y="26" width="4" height="52" rx="2" />
+      <rect x="288" y="26" width="4" height="52" rx="2" />
+      <rect x="300" y="26" width="4" height="52" rx="2" />
+      <rect x="312" y="26" width="4" height="52" rx="2" />
+      <rect x="324" y="26" width="4" height="52" rx="2" />
     </g>
 
-    <!-- Bottom Badge - Fully Within Frame Boundaries -->
-    <g transform="translate(32, 224)">
-      <text x="0" y="12" fill="#52525B" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="10.5" font-weight="600" letter-spacing="1.5">
-        1.0L ULTRA SMALL FORM FACTOR
-      </text>
-    </g>
+    <!-- Power button -->
+    <circle cx="396" cy="52" r="26" fill="url(#led-glow)" fill-opacity="0.25" />
+    <circle cx="396" cy="52" r="15" fill="#101117" stroke="#34364A" stroke-width="1.2" />
+    <circle cx="396" cy="52" r="9" fill="none" stroke="#38BDF8" stroke-width="1.4" stroke-opacity="0.9" />
+    <line x1="396" y1="45" x2="396" y2="52" stroke="#38BDF8" stroke-width="1.6" stroke-linecap="round" />
+  </g>
+
+  <!-- Dimension line + label -->
+  <g transform="translate(0, 306)">
+    <line x1="690" y1="0" x2="786" y2="0" stroke="#2A2C37" stroke-width="1" />
+    <line x1="1034" y1="0" x2="1130" y2="0" stroke="#2A2C37" stroke-width="1" />
+    <line x1="690" y1="-4" x2="690" y2="4" stroke="#2A2C37" stroke-width="1" />
+    <line x1="1130" y1="-4" x2="1130" y2="4" stroke="#2A2C37" stroke-width="1" />
+    <text x="910" y="3.5" text-anchor="middle" fill="#6B7280" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', sans-serif" font-size="9.5" font-weight="600" letter-spacing="2">1.0L ULTRA SMALL FORM FACTOR</text>
   </g>
 </svg>
