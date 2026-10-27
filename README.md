@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/banner.svg" alt="ThinkCentre M910x Tiny macOS Monterey OpenCore Banner" width="100%">
+</p>
+
 # Lenovo ThinkCentre M910x Tiny — OpenCore macOS Monterey (12.7.x)
 
 Complete, production-tested OpenCore EFI and deployment files for running **macOS 12 Monterey** natively on the **Lenovo ThinkCentre M910x Tiny** (with Intel Core i5-6500T, HD 530, ALC294, Intel I219-LM, and Intel AC 8265).

@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients & Filters -->
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#08090C" />
+      <stop offset="50%" stop-color="#0D0E12" />
+      <stop offset="100%" stop-color="#050608" />
+    </linearGradient>
+
+    <!-- Subtle Technical Grid Pattern -->
+    <pattern id="tech-grid" width="30" height="30" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="0.8" fill="#FFFFFF" fill-opacity="0.07" />
+    </pattern>
+
+    <!-- Accent Glows -->
+    <linearGradient id="red-accent" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FF3B30" />
+      <stop offset="100%" stop-color="#E2231A" />
+    </linearGradient>
+
+    <linearGradient id="monterey-glow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#E2231A" stop-opacity="0.25" />
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.15" />
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0.20" />
+    </linearGradient>
+
+    <!-- Border highlight -->
+    <linearGradient id="border-stroke" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.16" />
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.04" />
+      <stop offset="100%" stop-color="#E2231A" stop-opacity="0.30" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="420" rx="14" fill="url(#bg-grad)" />
+  <rect width="1200" height="420" rx="14" fill="url(#tech-grid)" />
+
+  <!-- Subtle Top Ambient Glow -->
+  <rect x="0" y="0" width="1200" height="6" fill="url(#monterey-glow)" />
+
+  <!-- Outer Border Frame -->
+  <rect x="1" y="1" width="1198" height="418" rx="13" fill="none" stroke="url(#border-stroke)" stroke-width="1.5" />
+
+  <!-- Left Lenovo Accent Tag -->
+  <rect x="60" y="60" width="4" height="24" rx="2" fill="url(#red-accent)" />
+  <text x="74" y="77" fill="#E2231A" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif" font-size="13" font-weight="700" letter-spacing="2.5">THINKCENTRE M910X TINY</text>
+
+  <!-- Main Headline -->
+  <text x="60" y="145" fill="#FFFFFF" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif" font-size="52" font-weight="800" letter-spacing="-1.2">
+    macOS Monterey
+  </text>
+  <text x="500" y="145" fill="#71717A" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Inter', sans-serif" font-size="34" font-weight="300" letter-spacing="-0.5">
+    12.7.6
+  </text>
+
+  <!-- Subtitle Line -->
+  <text x="60" y="195" fill="#A1A1AA" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Inter', sans-serif" font-size="18" font-weight="400" letter-spacing="-0.2">
+    Production OpenCore 1.0.8 EFI for Intel Skylake Core i5-6500T
+  </text>
+
+  <!-- Technical Specs Badges Row -->
+  <g transform="translate(60, 240)">
+    <!-- Badge 1: iGPU -->
+    <rect x="0" y="0" width="170" height="38" rx="6" fill="#18191E" stroke="#27272A" stroke-width="1" />
+    <circle cx="18" cy="19" r="4" fill="#34D399" />
+    <text x="32" y="24" fill="#E4E4E7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="13" font-weight="600">HD 530 1536 MB</text>
+
+    <!-- Badge 2: Audio -->
+    <rect x="185" y="0" width="165" height="38" rx="6" fill="#18191E" stroke="#27272A" stroke-width="1" />
+    <circle cx="203" cy="19" r="4" fill="#60A5FA" />
+    <text x="217" y="24" fill="#E4E4E7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="13" font-weight="600">ALC294 (Layout 12)</text>
+
+    <!-- Badge 3: Ethernet -->
+    <rect x="365" y="0" width="175" height="38" rx="6" fill="#18191E" stroke="#27272A" stroke-width="1" />
+    <circle cx="383" cy="19" r="4" fill="#38BDF8" />
+    <text x="397" y="24" fill="#E4E4E7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="13" font-weight="600">Intel I219-LM 1GbE</text>
+
+    <!-- Badge 4: Wi-Fi/BT -->
+    <rect x="555" y="0" width="155" height="38" rx="6" fill="#18191E" stroke="#27272A" stroke-width="1" />
+    <circle cx="573" cy="19" r="4" fill="#A78BFA" />
+    <text x="587" y="24" fill="#E4E4E7" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-size="13" font-weight="600">Intel AC 8265</text>
+  </g>
+
+  <!-- Technical Metadata Footer within Banner -->
+  <g transform="translate(60, 340)">
+    <line x1="0" y1="0" x2="650" y2="0" stroke="#27272A" stroke-width="1" />
+    <text x="0" y="28" fill="#52525B" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="12" font-weight="500" letter-spacing="1">ARCH: SKYLAKE DESKTOP 35W</text>
+    <text x="210" y="28" fill="#52525B" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="12" font-weight="500" letter-spacing="1">BOOTLOADER: OPENCORE 1.0.8</text>
+    <text x="440" y="28" fill="#52525B" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', sans-serif" font-size="12" font-weight="500" letter-spacing="1">ACCEL: METAL 2 / QE-CI</text>
+  </g>
+
+  <!-- Right Side Visual Component: Precision ThinkCentre Chassis Wireframe -->
+  <g transform="translate(820, 75)">
+    <!-- Ambient back-plate glow -->
+    <ellipse cx="160" cy="135" rx="140" ry="110" fill="#E2231A" fill-opacity="0.08" filter="blur(30px)" />
+
+    <!-- Chassis Base Silhouette -->
+    <rect x="30" y="20" width="260" height="230" rx="10" fill="#121318" stroke="#3F3F46" stroke-width="1.8" />
+    
+    <!-- ThinkCentre Front Panel Texture -->
+    <!-- Red dot trackpoint accent LED -->
+    <circle cx="65" cy="52" r="4" fill="#E2231A" />
+    <circle cx="65" cy="52" r="7" fill="#E2231A" fill-opacity="0.3" />
+    <text x="78" y="56" fill="#F4F4F5" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="13" font-weight="800" letter-spacing="1.5">ThinkCentre</text>
+
+    <!-- Front USB Ports & Audio Jack Schematics -->
+    <rect x="65" y="95" width="26" height="12" rx="2" fill="#1E2028" stroke="#52525B" stroke-width="1" />
+    <rect x="105" y="95" width="26" height="12" rx="2" fill="#1E2028" stroke="#52525B" stroke-width="1" />
+    <rect x="145" y="95" width="14" height="14" rx="7" fill="#1E2028" stroke="#52525B" stroke-width="1" />
+    <circle cx="152" cy="102" r="3" fill="#10B981" />
+    
+    <!-- Power Button Indicator -->
+    <circle cx="250" cy="52" r="8" fill="#18191E" stroke="#52525B" stroke-width="1.2" />
+    <circle cx="250" cy="52" r="3" fill="#38BDF8" />
+
+    <!-- Cooling Vent Array -->
+    <g fill="#27272A">
+      <rect x="65" y="145" width="190" height="3" rx="1.5" />
+      <rect x="65" y="155" width="190" height="3" rx="1.5" />
+      <rect x="65" y="165" width="190" height="3" rx="1.5" />
+      <rect x="65" y="175" width="190" height="3" rx="1.5" />
+      <rect x="65" y="185" width="190" height="3" rx="1.5" />
+      <rect x="65" y="195" width="190" height="3" rx="1.5" />
+      <rect x="65" y="205" width="190" height="3" rx="1.5" />
+      <rect x="65" y="215" width="190" height="3" rx="1.5" />
+    </g>
+
+    <!-- Architectural Badge -->
+    <rect x="160" y="222" width="115" height="24" rx="4" fill="#090A0F" stroke="#E2231A" stroke-width="1" />
+    <text x="172" y="238" fill="#E2231A" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="11" font-weight="700" letter-spacing="1">1.0L USFF CHASSIS</text>
+  </g>
+</svg>
