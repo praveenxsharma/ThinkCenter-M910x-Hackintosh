@@ -69,7 +69,7 @@ assert kernel_quirks.get("PanicNoKextDump") is True
 # 5. Verify Boot args
 boot_args = config.get("NVRAM", {}).get("Add", {}).get("7C436110-AB2A-4BBB-A880-FE41995C9F82", {}).get("boot-args", "")
 assert "-v" in boot_args, "Verbose mode should be in boot-args"
-assert "alcid=11" in boot_args, "ALC294 layout ID 11 should be in boot-args"
+assert "alcid=12" in boot_args, "ALC294 layout ID 12 should be in boot-args"
 
 # 6. Verify Drivers
 uefi_drivers = config.get("UEFI", {}).get("Drivers", [])
